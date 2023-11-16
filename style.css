@@ -129,6 +129,33 @@ input.btn:active{
  background-color: blue;
 } */
 
-input.btn:focus{
-  background-color: blue;
+/* input.text {
+  color: #e70e0e;}
+  input.text:focus {
+  color: #060111;} */
+  /* attrbute selectors */
+  /* existence */
+/* h1[test]{
+  color: red;
+} */
+/* Equality */
+/* h1[hi]{
+  color:brown
+ */
+/* space  */
+/* h1[test~="jen"]{
+  color: blueviolet;
+} */
+/* PRIFEX */
+/* h1[test^="h"]{
+  color: cadetblue;
+} */
+
+/* substring */
+/* h1[test*=el]{
+  color: blue;
+} */
+/* SUFFIX */
+h1[test$="l"]{
+  color: aquamarine;
 }
